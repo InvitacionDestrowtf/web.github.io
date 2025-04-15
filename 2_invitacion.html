@@ -2,17 +2,30 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Invitación de Cumpleaños</title>
   <style>
+
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Comic Sans MS', cursive, sans-serif;
+      font-family: sans-serif;
       background: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet, red);
       background-size: 600% 600%;
       animation: gradientBG 1s ease infinite;
       color: white;
       text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+
+     img {
+      width: 100%;
+      height: auto;
     }
 
     @keyframes gradientBG {
@@ -31,9 +44,14 @@
     }
 
     p {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
 
+  .funny-photos img {
+    width: 100%;
+    height: auto;
+  }
+}
     .fotoes-tirada img {
       width: 1500px;
       height: 500px;
